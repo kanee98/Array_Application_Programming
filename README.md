@@ -11,9 +11,9 @@ Function 1 calculates the total number of winners for each class *, therefore ge
   * A 4th class winner is one whose game-numbers match any 3 winning numbers. 
   
 Function 2 has an interface where a player can check his/her winning status (i.e., whether or not he/she is a lotto winner, of any class): When the player inputs his ID number, say, k (1 <= k <= n), this function checks whether or not the player wins the lotto, and print the following:                     
-   * <Player’s ID: k>, <Game-numbers in sequence in lotto[k-1][ ]>, <Message>
+   * <Player’s ID: k>, <Game-numbers in sequence in lotto[k-1][ ]>, Message
   
-  where '<Message>' is as below:   
+  where Message is as below:   
   If the player’s game-numbers (stored in lotto[k-1][0…5]) match 
   * (a) all 6 winning numbers, <Message> is “You win the game, congratulations!” 
   * (b) any 5 winning numbers, <Message > is “You are a 2nd class winner, congratulations!” 
